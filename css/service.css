@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+
+
+.head{ position:absolute; background:none;}
+
+.head .menu{ border-bottom:0;}
+
+
+
+.w1070{ width:1070px; margin:0 auto;}
+
+.serList{ position:relative; width:825px; margin:0 auto; overflow:hidden;}
+
+.serList li{ width:188px; height:223px; margin-right:28px; border:1px solid #e2e1e1;border-radius:5px; overflow:hidden; float:left;}
+
+
+.serList li .icon{ height:150px; width:100%; background:url(../images/icon_01.png) no-repeat;}
+
+.serList li .n1{ background-position:-50px -70px;}
+
+.serList li .n2{ background-position:-270px -70px;}
+
+.serList li .n3{ background-position:-490px -70px;}
+
+.serList li .n4{ background-position:-710px -70px;}
+
+.serList li .n5{ background-position:-930px -70px;}
+
+.serList li .txt{border-top:1px solid #e2e1e1; padding:12px 0; text-align:center; font-size:15px;}
+
+.serList li .txt a{ display:block; color:#bc9882; font-size:12px; padding-top:5px;}
+
+.serList li .txt a:hover{ color:#3c3c3c;}
+
+.serList li a:hover{}
+
+
+
+.serBox{border:1px solid #e2e1e1;border-radius:5px; overflow:hidden; }
+
+.serBox .pic{ float:left;}
+
+.serBox .pic img{ float:left;}
+
+.serBox .txt{ padding:65px 0 0 80px; float:left; font-size:14px; line-height:21px;}
+
+.serBox .txt h3{ font-size:24px; font-weight:normal; margin-bottom:10px;}
+
+.serBox .txt p{ color:#888;}
+
+.serBox .txt .btn{ background:#9d1d22; height:40px; line-height:40px; width:180px;border-radius:5px; color:#fff; display:block; margin-top:20px; text-align:center;}
+
+.serBox .txt .btn:hover{ background:#d32431;}
+
+
+
+.serIcon{ position:relative; width:886px; margin:0 auto; overflow:hidden; padding:40px 0;}
+
+.serIcon li{ width:136px;  padding:38px 0 38px 185px;border: 1px solid #e2e1e1;border-radius: 5px; overflow: hidden; float:left; height:40px; background:url(../images/icon_02.png) no-repeat;}
+
+.serIcon li.n1{ background-position:0 -95px;}
+
+.serIcon li.n2{ background-position:-370px -95px;}
+
+.serIcon li.n3{ background-position:-740px -95px; padding-left:145px; width:176px;}
+
+.serIcon li h5{ font-size:14px; font-weight:normal; color:#888;}
+
+.serIcon li a{ color:#bc9882; display:block; padding-top:3px;}
+
+.serIcon li a:hover{ color:#3c3c3c;}
+
+.serIcon li a.tel{ font-family:Arial, Helvetica, sans-serif; font-size:21px; margin-top:-5px; cursor:default;}
+.serIcon li a.tel:hover{color:#bc9882;}
+
+.serBox .txt .btn,.serBox .txt .btn:hover{ -moz-transition:all .2s linear; -webkit-transition:all .2s linear; transition:all .2s linear;}
+
+
+.footer{ padding-top:20px;}
+
+
+
+
+
+/*图片幻灯片*/
+
+.slidebox{ width:100%; height:500px; position: relative; z-index:1; overflow:hidden;}
+
+.slidebox .fouce{width:100%; height:100%; overflow:hidden;}
+
+.slidebox .fouce .info{ display:block;width:100%; height:100%; margin:0px;position:absolute; left:0; top:0; z-index:1;overflow:hidden; background-position:center top; background-repeat:no-repeat;}
+
+.slidebox .fouce .info.last-active{ z-index:5;}
+
+.slidebox .fouce .info.active{ z-index:10;}
+
+.slidebox .tabicon{ position: absolute; left: 0; right: 0; bottom:10px; width:100%; *padding-left:46%; text-align:center; z-index:11;}
+
+.slidebox .tabicon li { display: inline-block; *display: inline; *float:left;width: 10px; height: 10px; margin: 0 2px; text-indent: -999em; background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.5);border-radius: 12px; cursor: pointer; }
+
+.slidebox .tabicon li.active { background:#bc9882;}
+
+
+
+
+
+@-moz-keyframes bigimg {
+
+	0% { -moz-transform:scale(1); }
+
+	50% {  -moz-transform:scale(1.1);}
+
+	100% { -moz-transform:scale(1); }
+
+}
+
+@-webkit-keyframes bigimg {
+
+	0% { -webkit-transform:scale(1);}
+
+	50% { -webkit-transform:scale(1.1);}
+
+	10% { -webkit-transform:scale(1);}
+
+}
+
+
+
+@-ms-keyframes bigimg {
+
+	0% { -ms-transform:scale(1);}
+
+	50% { -ms-transform:scale(1.1);}
+
+	100% { -ms-transform:scale(1);}
+
+}
+
+.slidebox .fouce .info.active{-webkit-animation:bigimg 50s linear;
+
+	-moz-animation:bigimg 50s linear;
+
+	animation:bigimg 50s linear;
+
+	-moz-transform:scale(1);
+
+	-webkit-transform:scale(1);
+
+	transform:scale(1);}

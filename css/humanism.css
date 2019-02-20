@@ -1,0 +1,134 @@
+@charset "utf-8";.head{position:absolute; background:none;}
+
+.head .menu{border-bottom:0}
+
+.fixdNav li .dotOn,.page3 .list li a,.homebox .btn a,.homebox .btn a:hover{-moz-transition:all .5s linear;-webkit-transition:all .5s linear;transition:all .5s linear}
+{-moz-transition:color .2s linear;-webkit-transition:color .2s linear;transition:color .2s linear}
+
+.footer{padding-top:60px}
+
+.fixdNav{position:fixed;z-index:99;right:20px;height:250px;top:50%;margin-top:-125px}
+
+.fixdNav li{width:18px;height:18px;position:relative;margin-bottom:3px;cursor:pointer}
+
+.fixdNav li .dot{background:url(../img/humanism/home/icon_01.png) no-repeat;width:18px;height:18px;display:block}
+
+.fixdNav li .dotOn{background:url(../img/humanism/home/icon_02.png) no-repeat right center;width:107px;height:31px;left:-95px;top:-10px;position:absolute;display:none}
+
+.fixdNav li .dotOn a{width:104px;*width:85px;height:31px;display:block;text-align:right;padding-right:20px;*margin-right:20px; *float:right;line-height:31px;color:#555; font-size:12px; float:right; }
+
+.fixdNav li.active .dotOn{display:block}
+
+.section{overflow:hidden}
+
+.slidebox{width:100%;height:100%;position:relative;z-index:1}
+
+.slidebox .fouce{width:100%;height:100%;overflow:hidden}
+
+.slidebox .fouce>div{display:block;width:100%;height:100%;margin:0;position:absolute;left:0;top:0;z-index:1;overflow:hidden;background-position:center top}
+
+.slidebox .fouce>div.last-active{z-index:5}
+
+.slidebox .fouce>div.active{z-index:10}
+
+.slidebox .tabicon{position:absolute;left:0;right:0;bottom:10px;width:100%;text-align:center;z-index:11}
+
+.slidebox .tabicon li{display:inline-block;width:11px;height:11px;margin:0 2px;text-indent:-999em;background:url(../img/global/icon_02.png) no-repeat 0 0;cursor:pointer;overflow:hidden}
+
+.slidebox .tabicon li.active{background-position:0 -11px}
+
+.page1 .p1 .zi{background:url(../img/humanism/home/01/zi.png) no-repeat;width:487px;height:136px;position:absolute;left:50%;margin-left:-243px;top:30%}
+
+
+.page1 .txt{ width:650px; height:180px; position:absolute; left:50%; top:35%; margin-left:-325px; margin-top:-90px; text-align:center;}
+.page1 .txt h2{ font-size:40px; font-weight:normal; color:#000; padding-bottom:20px;}
+.page1 .txt p{ font-size:13px; line-height:32px; color:#888;}
+
+
+.page2 .bg{position:absolute;left:0;bottom:0;width:100%}
+
+.page2 .txt{ width:650px; height:180px; position:absolute; left:50%; top:35%; margin-left:-325px; margin-top:-90px;text-align:center; z-index:9;}
+.page2 .txt h2{ font-size:40px; font-weight:normal; color:#000; padding-bottom:20px;}
+.page2 .txt p{ font-size:13px; line-height:32px; color:#888;}
+
+
+
+.page3 .list li{ float:left; width:50%; height:50%; overflow:hidden; position:relative;}
+.page3 .list li a{ position:absolute; left:0; top:0; width:100%; height:100%; background:url(../img/humanism/home/03/bg.png) repeat; display:none;}
+.page3 .list li p{ position:absolute; left:0; text-align:center; width:120px; left:50%; margin-left:-60px; font-size:30px; top:45%; margin-top:-12px; z-index:3; color:#000; z-index:9; background-position:center bottom;}
+.page3 .list li.hover p{ background:url(../img/humanism/home/03/icon.png) no-repeat center bottom; padding-bottom:70px; color:#fff;} 
+.page3 .list .bg{ position:absolute; left:0; bottom:0;}
+
+.homebox{ overflow:hidden; position:relative;}
+.homebox .bg{}
+
+
+.homebox .txt{ width:480px; position:absolute; left:50%; bottom:14%; margin-left:110px; text-align: left; z-index:9;}
+.homebox .txt h2{ font-size:40px; font-weight:normal; color:#000; padding-bottom:20px; line-height:60px;}
+.homebox .txt p{ font-size:13px; line-height:32px; color:#888;}
+.homebox .btn{ padding-top:20px;}
+.homebox .btn a{ height:50px; line-height:50px; background:#9d1d22 url(../img/humanism/p5/icon_02.png) no-repeat 85% center; border-radius:5px; text-align:center; display:inline-block; width:250px; font-size:14px; color:#fff; }
+.homebox .btn a:hover{ background:#dd1828 url(../img/humanism/p5/icon_02.png) no-repeat 90% center;}
+
+
+
+
+.page5 .homebox .txt{bottom:19%;}
+
+.page6{ width:100%; overflow:hidden; overflow-y:auto;}
+.page6 .homebox .txt{margin-left:-500px;bottom:23%;}
+
+
+
+
+.an2{transform: translate(0px,18px); -webkit-transform: translate(0px,18px); opacity:0;}
+
+@keyframes jin{
+
+	0% {transform: translate(0px,18px);opacity:0;}
+
+	100% {transform:translate(0,0);opacity:1;}
+
+}
+
+@-webkit-keyframes jin{
+
+	0% {-webkit-transform: translate(0px,18px);opacity:0;}
+
+	100% {-webkit-transform:translate(0,0);opacity:1;}
+
+}
+
+
+
+
+
+.b1_dh1 h2,.b1_dh2 p,
+
+.b2_dh1 h2,.b2_dh2 p,
+
+.b4_dh1 h2,.b4_dh2 p,.b4_dh3 .btn,
+.b5_dh1 h2,.b5_dh2 p,.b5_dh3 .btn,
+.b6_dh1 h2,.b6_dh2 p,.b6_dh3 .btn
+
+{-webkit-animation:jin 0.8s ease-in; animation:jin 0.8s ease-in; transform:translate(0,0); -webkit-transform:translate(0,0); opacity:1;}
+
+
+
+
+
+.an{transform: translate(30px,0px); -webkit-transform: translate(30px,0px); opacity:0;}
+
+
+
+
+
+
+
+.infoBox{ position:relative;}
+
+
+
+
+.fp-tableCell{ overflow:hidden;}
+

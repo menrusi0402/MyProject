@@ -1,0 +1,114 @@
+@charset "utf-8";
+.head{position:absolute; background:none; left:0; top:0;}
+.head .menu{border-bottom:0;}
+.nav{padding:75px 0; overflow:hidden;}
+.nav li{float:left; width:79px; padding:2px 25px; text-align:center; border-right:1PX dotted #dfdfdf;}
+.nav li.last{border:0;}
+.nav li a{padding-top:75px; display:block;background:url(../img/global/icon_01.png) no-repeat;}
+.nav li a:hover{color:#bc9882;}
+.nav li a.n1{background-position:-5px 0; width:82px;}
+.nav li a.n1:hover{background-position:-2px -148px;}
+.nav li a.n2{background-position:-137px 0;}
+.nav li a.n2:hover{background-position:-137px -152px;}
+.nav li a.n3{background-position:-270px 0;}
+.nav li a.n3:hover{background-position:-270px -152px;}
+.nav li a.n4{background-position:-405px 0;}
+.nav li a.n4:hover{background-position:-405px -152px;}
+.nav li a.n5{background-position:-540px 0;}
+.nav li a.n5:hover{background-position:-540px -152px;}
+.nav li a.n6{background-position:-673px 0;}
+.nav li a.n6:hover{background-position:-673px -152px;}
+.nav li a.n7{background-position:-805px 0;}
+.nav li a.n7:hover{background-position:-805px -152px;}
+.nav li a.n8{background-position:-938px 0px; width:83px;}
+.nav li a.n8:hover{background-position:-938px -152px;}
+.nav li a.n9{background-position:-1076px 0;}
+.nav li a.n9:hover{background-position:-1076px -148px;}
+.bgcolor{padding:0px 0 90px 0;}
+.bg2{ background:#f5f5f5;}
+.banner{padding-bottom:30px; overflow:hidden;}
+.banner .left{width:570px; height:370px; overflow:hidden; margin-right:30px; float:left; border-radius:5px;}
+
+.banner .right{width:570px; height:370px; overflow:hidden; float:left; border-radius:5px;}
+
+.banner .movie{ width:570px; height:370px;}
+.listBox .movie{border-radius:5px; overflow: hidden; }
+.list_3 .item .movie{width: 370px; height: 260px;border-radius:5px 5px 0 0;}
+
+.listBox .txt{ font-size:12px; text-indent:18px; padding: 10px 0 18px 0; line-height:21px;}
+.listBox .txt h3{ font-weight:normal;}
+.listBox .txt p{ color:#999;}
+.listBox .more{border-bottom:1px solid #C1C1C1; height:20px; position:relative; text-align:center; margin:40px 0;}
+.listBox .more a{display: inline-block; width:90px; padding-top:30px; background:#f5f5f5 url(../img/index/icon_01.png) no-repeat center top; text-align:center; color:#bc9882; line-height:18px;}
+.list_1{overflow:hidden;}
+.list_1 .movie{width:775px; height:258px;}
+.list_1 .left{width:775px; height:310px; overflow:hidden; margin-right:10px;float:left; background:#fff; border-radius:5px; margin-bottom:10px; position:relative;}
+.list_1 .right{width:385px; height:310px; overflow:hidden; float:left; background:#fff; border-radius:5px; margin-bottom:10px;position:relative;}
+.list_1 .left .pic{width:775px; height:255px; overflow:hidden;}
+.list_1 .right .pic{width:385px; height:255px; overflow:hidden;}
+.list_2{overflow:hidden;}
+.list_2 .left{width:385px; height:310px; overflow:hidden; margin-right:10px;float:left; background:#fff; border-radius:5px; margin-bottom:10px;position:relative;}
+.list_2 .right{width:775px; height:310px; overflow:hidden; float:left; background:#fff; border-radius:5px; margin-bottom:10px; position:relative;}
+.list_2 .left .pic{width:385px; height:255px; overflow:hidden;}
+.list_2 .right .pic{width:775px; height:255px; overflow:hidden;}
+.list_3{overflow:hidden;}
+.list_3 .item{width:370px; height:325px; overflow:hidden;float:left;margin-right:30px; background:#fff; border-radius:5px; margin-bottom:30px;}
+.list_3 .last{width:370px; margin-right:0;}
+.item .tip1,.list_2 .left .tip1,.list_2 .right .tip1,.list_1 .left .tip1,.list_1 .right .tip1{position:absolute; left:15px; top:15px; background:#cd3f3f url(../img/global/icon_04.png) no-repeat 8px center; height:18px; line-height:16px; padding:0 10px 0 5px; color:#fff; text-indent:12px;}
+.item .tip2,.list_2 .left .tip2,.list_2 .right .tip2,.list_1 .left .tip2,.list_1 .right .tip2{position:absolute; left:20px; top:15px; background:#cd3f3f url(../img/global/icon_04.png) no-repeat 8px center; height:18px; line-height:16px; padding:0 10px 0 5px; color:#fff; text-indent:12px;}
+.item .tip3,.list_2 .left .tip3,.list_2 .right .tip3,.list_1 .left .tip3,.list_1 .right .tip3{position:absolute; left:20px; top:15px; background:#cd3f3f url(../img/global/icon_04.png) no-repeat 8px center; height:18px; line-height:16px; padding:0 10px 0 5px; color:#fff; text-indent:12px;}
+.item{position:relative;}
+.fixd{display:none;background:#fff; background:rgba(255,255,255,0.95);position:fixed; top:0px; left:0;z-index:9; width:100%; border-bottom: 1px solid #f4f4f4; height:71px;}
+.navFloat{overflow:hidden; width:1170px; margin:0 auto;}
+.navFloat li{float:left; height:30px; line-height:30px; margin:20px 32px 20px 0;}
+.navFloat li.last{margin-right:0;}
+.navFloat li a{background:url(../img/product/icon_01.png) no-repeat;padding-left:40px; display:block;height:30px; line-height:33px;}
+.navFloat li a.n1{background-position:0 0;}
+.navFloat li a.n2{background-position:-131px -2px;}
+.navFloat li a.n3{background-position:-257px 0;}
+.navFloat li a.n4{background-position:-410px 0;}
+.navFloat li a.n5{background-position:-534px 0;}
+.navFloat li a.n6{background-position:-668px 0;}
+.navFloat li a.n7{background-position:-798px 0;}
+.navFloat li a.n8{background-position:-937px 0;}
+.navFloat li a.n9{background-position:-1072px 0;}
+.navFloat li a:hover{ color:#bc9882;}
+
+
+/*图片幻灯片*/
+.slidebox{width:100%; height:740px; position: relative; z-index:1; overflow:hidden;}
+.slidebox .fouce{width:100%; height:100%; overflow:hidden;}
+.slidebox .fouce .info{display:block;width:100%; height:100%; margin:0px;position:absolute; left:0; top:0; z-index:1;overflow:hidden; cursor:pointer; background:#fff;}
+.slidebox .fouce .info.last-active{z-index:5;}
+.slidebox .fouce .info.active{z-index:10;}
+.slidebox .tabicon{position: absolute; left: 0; right: 0; bottom:18px; width:100%; *padding-left:46%; text-align:center; z-index:11;}
+.slidebox .tabicon li{display: inline-block; *display: inline; *float:left;width: 11px; height: 11px; margin: 0 2px; text-indent: -999em; background: url(../img/global/icon_02.png) no-repeat 0 0; cursor: pointer; overflow:hidden;}
+.slidebox .tabicon li.active{background-position:0 -11px;}
+
+.slidebox .fouce .wrap{ width:1000px; height:740px; position:relative; margin:0 auto;}
+.slidebox .fouce .wrap .txt{ width:450px; height:180px; position:absolute;  z-index:3;}
+.slidebox .fouce .wrap .left{left:0; top:50%; margin-top:-90px;}
+.slidebox .fouce .wrap .center{left:0; top:210px; width:100%; text-align:center;}
+.slidebox .fouce .wrap .right{left:50%; width:500px; margin-right:300px; text-align:center;top:50%; margin-top:-90px;}
+.slidebox .fouce .wrap .txt h2{ font-size:32px; font-weight: lighter; color:#222;}
+.slidebox .fouce .wrap .txt p{ font-size:13px; color:#3c3c3; padding:18px 0;}
+.slidebox .fouce .wrap .txt a{background:url(../img/hero/shuicao/01/icon.png) no-repeat 95% center; padding-right:20px; color:#bc9882; font-size:14px;}
+.slidebox .fouce .wrap .txt a:hover{background-position:100% center;}
+.slidebox .fouce .imgMain .pic{ position:absolute; top:0;}
+.slidebox .fouce .videoMain .movie,.slidebox .fouce .videoMain .videoPic{position:absolute; top:0; width:1920px; height:740px;}
+
+.slidebox .fouce .wrap .txt a,.slidebox .fouce .wrap .txt a:hover{-moz-transition:all .5s linear; -webkit-transition:all .5s linear; transition:all .5s linear;}
+
+
+@-moz-keyframes bigimg{0%{-moz-transform:scale(1);}50%{-moz-transform:scale(1.05);}100%{-moz-transform:scale(1);}}
+@-webkit-keyframes bigimg{0%{-webkit-transform:scale(1);}50%{-webkit-transform:scale(1.05);}10%{-webkit-transform:scale(1);}}
+@-ms-keyframes bigimg{0%{-ms-transform:scale(1);}50%{-ms-transform:scale(1.05);}100%{-ms-transform:scale(1);}}
+
+.slidebox .fouce .imgMain.active .pic{-webkit-animation:bigimg 25s linear;-moz-animation:bigimg 25s linear;animation:bigimg 25s linear;-moz-transform:scale(1);-webkit-transform:scale(1);transform:scale(1);}
+
+.slidebox .fouce .s2 .txt h2{ color:#fff;}
+.slidebox .fouce .s2 .txt p{ color:#fff;}
+.slidebox .fouce .s2 .txt a, .slidebox .fouce .wrap .txt a:hover{ color:#fff;}
+
+.list_3 .item .videoMain{ height:257px; overflow:hidden;}
+.list_3 .item .pic{ height:257px;overflow:hidden;}

@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+
+
+
+
+.mqNav{ background:#fff;}
+
+
+
+{-moz-transition:all .2s linear; -webkit-transition:all .2s linear; transition:all .2s linear;}
+
+
+
+.footer{ padding-top:60px;}
+
+
+
+.w1170{ color:#3c3c3c;
+}
+.w1170 .subtitle{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.sp_l ,.sp_r{
+    float: left; opacity:0.9;
+}
+.free {
+    width: 1170px;
+    height: 184px;
+   
+}
+.same ,.free ,.weiquan_wrap{
+    border-bottom: 1px dotted #999;
+}
+.free ul{
+    width: 100%;
+    height: 100%;
+}
+.free li{
+    width: 25%; width: 24.9%\9;
+    float: left;
+}
+.sp_r span ,.sp_r b{
+    display: block;
+    font-size: 13px; font-weight:normal;
+}
+.sp_r span{
+    color: #333;
+}
+.sp_r b{
+    color: #bc9882;
+}
+.sp_l{
+    position: relative;
+    top: 5px;
+    padding-right: 12px;
+}
+.baoxiu h2{
+    font-size: 28px;
+    text-align: center;
+    font-weight: normal;
+}
+.gen{
+    margin-bottom: 25px;
+}
+.sunnext{
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.provisions li{
+    color: #555; line-height:20px;
+    padding-left: 18px;
+    background: url(../img/service/repair/icon_dian.png) no-repeat;
+    background-position: 6px 9px;
+    margin-bottom: 6px;
+}
+.provisions ,.baoxiu h2 ,.free li ,.free{
+    margin-bottom: 40px;
+}
+.free{ padding-top:20px; height:160px;}
+.jeichu{
+    margin-bottom: 42;
+    padding-bottom: 30px;
+}
+.repair{
+    margin-bottom: 40px;
+}
+.repair h3{
+    display: inline-block; float:left\9;
+    font-size: 20px;
+    margin-bottom: 20px; font-weight:normal; float:left;
+}
+.repair a{
+    display: inline-block;
+    padding: 1px 12px;
+    color: #fff;
+    line-height: 14px;
+    background: #f02e3d;
+    border-radius: 16px;
+    margin-left: 20px; position:relative; top:-3px;background:#9d1d22 url(../img/product/icon_03.png) no-repeat 100px center; color: #fff;border-radius: 5px;text-indent:5px;display: inline-block;width: 90px; height:28px; line-height:28px; margin-bottom:20px;
+}
+.repair span{
+    display: block; *width:100%;*text-indent:0; *padding:0; *margin-top:12px; *float:left; *margin-left:-90px; *display:none;
+}
+.repair ,.sunnext ,.w1170 .subtitle ,.tex_th{
+    font-weight: normal;
+}
+.weiquan_wrap{
+    padding-bottom: 50px; float:left; width:100%;
+}
+.san_d{
+    width: 264px;
+    border: 1px solid #e2e1e1;
+    padding: 14px 0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.san_d ,.wechat{
+    float: left; 
+}
+.wechat{ position:relative; top:-30px; font-size:13px; width:120px;}
+.wechat img{ width:100%;}
+.wechat span{ font-size:13px;}
+.fl_l ,.fl_r{
+    float: left; opacity:0.75;
+}
+.fl_l{
+    text-align: center;
+    width: 94px;
+    height: 54px;
+    border-right: 1px dashed #cccccc;
+}
+.fl_r{
+    padding-left: 24px;
+}
+.fl_r span{
+    display: block;
+    font-size: 16px;
+}
+.fl_r .col{
+    color: #d4a385; padding-top:6px;
+}
+.bf{
+    margin-right: 50px;
+}
+.wechat span{
+    display: block;
+    font-size: 13px;
+    text-align: center;
+}
+.tex_th{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.pad{
+    padding: 48px 0 ; overflow:hidden; width:100%;
+}
+.pad p{
+    color: #888888;
+}
+.qc_m{
+    margin: 0;
+}
+.suan_b{
+    margin-bottom: 32px;
+}
+.time_f ul{
+    overflow: hidden;
+    display:table
+}
+.time_f li{
+    float: left;
+    padding-right:40px;
+    display:table-cell;
+/*    height: 66px;*/
+    line-height: 50px;
+    text-align: center; position:relative; top:10px;
+}
+.time_f li span{
+    display: block; line-height:16px; color:#777;
+}
+.time_f img{
+    vertical-align:middle;
+    
+}
+.time_f .col{
+    color: #23c123; line-height:20px;
+    
+}
+.time_f  span{
+    text-align: center;
+}
+.time_f .last_p{
+    padding-right: 35px;
+    border-right: 1px dashed #a3a3a3;
+}
+.last_l{
+    padding-left: 30px;
+}
+.pad .col_p{
+    color: #bc9882;
+    padding-left: 14px; padding-top:8px;
+}
+.bod_no{
+    border: none;
+}
+.line_last{
+    line-height: 30px;
+}
+.provisions li:last-child{
+    margin-bottom: 0;
+}

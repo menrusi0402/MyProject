@@ -1,0 +1,512 @@
+@charset "utf-8";
+.qNav {
+	overflow:hidden;
+	background:#fff;
+	background:rgba(255, 255, 255, 0.95);
+	border-bottom:1px solid #f4f4f4;
+	width:100%;
+}
+.floatNav {
+	padding:15px 0;
+	overflow:hidden;
+}
+.floatNav .tab {
+	float:right;
+}
+.floatNav .tab li {
+	float:left;
+	margin-left:35px;
+	height:30px;
+	line-height:30px;
+}
+.floatNav .tab li.on a {
+	text-decoration:underline;
+	color:#bc9882;
+}
+.floatNav .tab li a.buyNow {
+	background:#bd3939 url(../img/product/icon_03.png) no-repeat 75px center;
+	color:#fff;
+	border-radius:5px;
+	text-indent:20px;
+	display:inline-block;
+	width:90px;
+}
+.floatNav .tab li a.buyNow:hover {
+	background-color:#ae3030;
+	background-position:78px center;
+}
+.floatNav .name {
+	height:30px;
+	line-height:30px;
+}
+.floatNav .name span {
+	background:url(../img/product/icon_01.png) no-repeat;
+	float:left;
+	display:block;
+	width:38px;
+	height:30px;
+	line-height:33px;
+	margin-right:8px;
+}
+.floatNav .name span.n1 {
+	background-position:0 0;
+}
+.floatNav .name span.n2 {
+	background-position:-131px -2px;
+}
+.floatNav .name span.n3 {
+	background-position:-257px 0;
+}
+.floatNav .name span.n4 {
+	background-position:-410px 0;
+}
+.floatNav .name span.n5 {
+	background-position:-534px 0;
+}
+.floatNav .name span.n6 {
+	background-position:-668px 0;
+}
+.floatNav .name span.n7 {
+	background-position:-798px 0;
+}
+.floatNav .name span.n8 {
+	background-position:-937px 0;
+}
+.floatNav .name span.n9 {
+	background-position:-1072px 0;
+}
+.b3 {
+	padding-top:50px;
+}
+.bigimg {
+	padding:50px 0;
+	text-align:center;
+}
+.color_1 {
+	background:#e8d4c7;
+}
+.color_2 {
+	background:#c2ced2;
+}
+.color_3 {
+	background:#969696;
+}
+.color_4 {
+	background:#f4f4f4;
+}
+.color_5 {
+	background:#b6dedb;
+}
+.color_6 {
+	background:#fbe8eb;
+}
+.box {
+	width:1170px;
+	margin:0 auto;
+}
+.b1 {
+	overflow:hidden;
+}
+.b1 .left {
+	float:left;
+	width:545px;
+	padding:70px 20px;
+}
+.b1 .right {
+	float:left;
+	width:545px;
+	padding:70px 0px 70px 40px;
+}
+.b1 .left .txt {
+	text-align:center;
+	line-height:30px;
+	font-size:14px;
+	padding-top:50px;
+}
+.b1 .left .txt .col {
+	color:#3c3c3c;
+}
+.b1 .left .txt .size {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30px;
+	margin:10px 0;
+}
+.b1 .left .txt .more {
+	background:#9d1d22 url(../img/product/icon_03.png) no-repeat 75px center;
+	color:#fff;
+	border-radius:5px;
+	text-indent:0px;
+	display:inline-block;
+	width:90px;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+	margin-top:30px;
+}
+.b1 .left .txt .more:hover {
+	background-color:#A52F2F;
+	background-position:78px center;
+}
+.b1 .right td {
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #ccc;
+}
+.b1 .right table {
+	border-top:1px solid #ccc;
+}
+.b1 .right h5 {
+	padding-bottom:12px;
+}
+.b1 .right .tip {
+	padding-top:15px;
+	color:#bc9882;
+}
+.b1 .tabBox {
+	padding-left:370px;
+	overflow:hidden;
+}
+.b1 .tabBox .tabMain {
+	display:none;
+}
+.b1 .tabBox .tabMain .pic img {
+	border-radius:5px;
+}
+.b1 .tabBox .tabMain .pic {
+	margin-bottom:10px;
+}
+.slidebox .fouce img {
+	border-radius:5px;
+}
+.b1 .tabBox .tabMain .txt {
+	line-height:21px;
+}
+.b1 .tabBox .tabs {
+	float:left;
+	margin-left:-370px;
+	width:370px;
+}
+.b1 .tabBox .tabs span {
+	display:block;
+	padding:10px;
+	line-height:16px;
+	width:210px;
+	border:1px solid #888;
+	margin-bottom:15px;
+	border-radius:5px;
+	text-align:center;
+	position:relative;
+	cursor:pointer;
+}
+.b1 .tabBox .tabs span.on {
+	border-color:#bc9882;
+	background:#bc9882;
+	color:#fff;
+}
+.b1 .tabBox .tabs span i {
+	position:absolute;
+	right:-6px;
+	top:50%;
+	margin-top:-5px;
+	background:url(../img/product/icon_04.png) no-repeat;
+	width:6px;
+	height:10px;
+	display:none;
+}
+.b1 .tabBox .tabs span.on i {
+	display:block;
+}
+.recommend {
+	margin:0 auto;
+	margin-top:100px;
+	width:1170px;
+}
+.recommend .tabs {
+	text-align:center;
+	font-size:28px;
+	color:#3c3c3c;
+	margin-bottom:58px;
+}
+.recommend .tabs span {
+	display:inline-block;
+	margin:0 20px;
+	cursor:pointer;
+}
+.recommend .tabs span.on {
+	color:#bc9882;
+	text-decoration:underline;
+}
+.recommend .tabMain {
+	display:none;
+}
+.recommend .tabMain ul {
+	overflow:hidden;
+	width:1200px;
+}
+.recommend .tabMain li {
+	float:left;
+	margin-right:30px;
+	width:270px;
+}
+.recommend .tabMain li .pic {
+	width:270px;
+	height:164px;
+	overflow:hidden;
+	border-radius:5px;
+}
+.recommend .tabMain .txt {
+	font-size:15px;
+	text-align:center;
+	padding-top:10px;
+}
+.b2 .pic {
+	margin:40px 0;
+}
+.b2 .info {
+	margin:130px 0;
+}
+.b2 .info .pic{ text-align:center;}
+.b3 h2 {
+	font-size:28px;
+	text-align:center;
+	font-weight:normal;
+}
+.banner {
+	width:1170px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.banner {
+	padding-bottom:10px;
+	overflow:hidden;
+}
+.banner .left {
+	width:580px;
+	height:370px;
+	overflow:hidden;
+	margin-right:10px;
+	float:left;
+	border-radius:5px;
+}
+.banner .right {
+	width:580px;
+	height:370px;
+	overflow:hidden;
+	float:left;
+	border-radius:5px;
+}
+.b4 .info {
+	margin-top:120px;
+}
+.b4 h2 {
+	text-align:center;
+	font-size:24px;
+	padding-bottom:50px;
+	font-weight:normal;
+}
+.b4 .list {
+	background:#f8f8f8;
+	padding:20px 30px;
+	overflow:hidden;
+}
+.b4 .list li {
+	float:left;
+	width:25%;
+	margin-bottom:25px;
+}
+.b4 .list .pic {
+	float:left;
+	width:110px;
+	margin-right:18px;
+}
+.b4 .list h3 {
+	padding:10px 0 0px 0;
+	font-weight:normal;
+	color:#3c3c3c;
+}
+.b4 .list p {
+	color:#999;
+}
+.otherBox {
+	overflow:hidden;
+	padding-top:120px;
+	width:1170px;
+	margin:0 auto;
+}
+.otherBox .qa {
+	margin-right:30px;
+	width:518px;
+	height:225px;
+	border:1px solid #ccc;
+	padding:25px;
+	float:left;
+	border-radius:5px;
+}
+.otherBox .help {
+	width:518px;
+	height:225px;
+	border:1px solid #ccc;
+	padding:25px;
+	border-radius:5px;
+	float:left;
+}
+.otherBox .qa li {
+	height:38px;
+	line-height:38px;
+	border-bottom:1px dotted #c3c3c3;
+}
+.otherBox .qa li a:hover, .otherBox .help li a:hover {
+	color:#ba987f;
+}
+.otherBox .help ul {
+	position:relative;
+	width:540px;
+	overflow:hidden;
+	padding-top:15px;
+}
+.otherBox .help li {
+	float:left;
+	width:250px; height:210px;
+	margin-right:20px;
+	text-align: left;
+}
+.otherBox .help li .pic {
+	display:block;
+	width:250px;
+	height:140px; overflow:hidden;
+	margin-bottom:8px;
+}
+.otherBox .tit {
+	height:24px;
+	line-height:24px;
+	font-size:18px;
+	margin-bottom:6px;
+}
+.otherBox .tit a {
+	font-size:12px;
+	float:right;
+	color:#ba987f;
+}
+.otherBox .tit a:hover {
+	color:#3c3c3c;
+}
+/*图片幻灯片*/
+
+
+
+
+
+
+
+.slidebox {
+	width:100%;
+	height:600px;
+	position: relative;
+	z-index:1;
+	margin-top:20px;
+}
+.slidebox .fouce {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.slidebox .fouce p {
+	display:block;
+	width:100%;
+	height:100%;
+	margin:0px;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+	overflow:hidden;
+	background-position:center top;
+}
+.slidebox .fouce p.last-active {
+	z-index:5;
+}
+.slidebox .fouce p.active {
+	z-index:10;
+}
+.slidebox .tabicon {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom:10px;
+	width:100%;
+*padding-left:46%;
+	text-align:center;
+	z-index:11;
+}
+.slidebox .tabicon li {
+	display: inline-block;
+ *display: inline;
+ *float:left;
+	width: 10px;
+	height: 10px;
+	margin: 0 4px;
+	text-indent: -999em;
+	background:#ccc;
+	border-radius: 12px;
+	cursor: pointer;
+}
+.slidebox .tabicon li.active {
+	background:#bc9882;
+}
+/* fixedtop */
+
+
+
+
+body,html{ *overflow-x:hidden;}
+
+
+.fixedtop {
+	position:fixed;
+	top:0px;
+	z-index:9;
+}
+.list_3 {
+	overflow:hidden;
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.list_3 .item {
+	width:385px;
+	height:310px;
+	overflow:hidden;
+	float:left;
+	margin-right:10px;
+	background:#fff;
+	border-radius:5px;
+	margin-bottom:10px;
+}
+.list_3 .last {
+	width:380px;
+	margin-right:0;
+}
+.list_3 .txt {
+	height:35px;
+	line-height:35px;
+	font-size:13px;
+	text-align:center;
+}
+.footer .iconList li.n6 {
+	background:url(../img/product/icon_05.png) no-repeat -8px -8px;
+}
+.f2 .iconList li {
+	width:172px;
+	margin-left:50px;
+}
+.floatNav .tab li a.buyNow, .floatNav .tab li a.buyNow:hover, .b1 .left .txt .more, .b1 .left .txt .more:hover {
+-moz-transition:all .2s linear;
+-webkit-transition:all .2s linear;
+transition:all .2s linear;
+}
+.footer .iconList li.n4 {
+	background:url(../img/product/icon_06.png) no-repeat left top; margin-right:0;
+}
+.f2 .iconList li{ margin-right:0px;}
+
+.recommend .tabMain li a:hover{ color:#bc9882;}
